@@ -3,48 +3,36 @@ Customers Churn Dashboard — Detailed Analysis
 <img width="1444" height="809" alt="image" src="https://github.com/user-attachments/assets/e2223bbf-4d9f-4c54-96ff-7c029d148c97" />
 
 
-What is this Dashboard and Why was it Built?
-This is a Customer Churn Analysis Dashboard built under PwC's branding. The core purpose is to understand — which types of customers are leaving the service (churning), why they are leaving, and what the financial impact is.
+ItemDetailsDashboard NameCustomers Churn DashboardCreated ByPwC (PricewaterhouseCoopers)PurposeAnalyze why customers are leaving and what the financial impact isTotal Views3 — Overview, Customer Risk, Revenue
 
-Navigation Structure
-The dashboard has three views:
-Overview — This shows the overall picture. Total revenue, customer segmentation, and churn patterns are visible here.
-Customer Risk — Analyzes which customers are at risk of churning.
-Revenue — Financial analysis of how much money is being lost or could be lost due to churn.
+2. Navigation Tabs
+Tab NameWhat it ShowsOverviewOverall picture — revenue, gender split, churn patternsCustomer RiskWhich customers are at high risk of churningRevenueFinancial loss due to churn — actual and potential
 
-KPIs (Key Numbers)
-Total Revenue: 278M — The company's total earnings are 278 million. This acts as a baseline — to understand how much this number could grow if churn is reduced.
-Monthly Revenue: 48M — 48 million is coming in every month. Compared to yearly and quarterly figures, this is significantly lower, indicating that monthly contract customers spend less.
-Yearly Revenue: 115M — Customers on annual contracts are generating the highest revenue.
-Quarterly Revenue: 115M — Quarterly contracts are generating the same amount — 115M. This means yearly and quarterly customers are the primary drivers of the business.
+3. Key Performance Indicators (KPIs)
+KPIValueBusiness MeaningTotal Revenue278MCompany's overall earnings — the baseline to measure churn impact againstMonthly Revenue48MRevenue from monthly contracts — lowest among all contract typesYearly Revenue115MRevenue from annual contracts — tied for highestQuarterly Revenue115MRevenue from quarterly contracts — tied for highest with yearly
 
-Gender Breakdown (Donut Chart)
-Male: 43%, Female: 57%
-Female customers are greater in number. The business importance here is — if churn rate differs by gender, then retention strategies need to be designed separately for each group.
+4. Gender Breakdown
+GenderPercentageBusiness ImplicationFemale57%Majority customer base — retention strategy should prioritize this groupMale43%Smaller segment — separate churn behavior analysis needed
 
-Tenure by Churn (How long customers stay before churning)
-This is one of the most important charts.
-13-24 Months: 51K — The highest churn happens in this period. It means customers are making it past the first year but leaving in the second year. This is a critical retention window that needs immediate attention.
-49-60 Months: 50K — Long-term customers are also churning, which is concerning. These customers were supposed to be loyal.
-1-12 Months: 50K — New customers are also leaving within the first year. The onboarding experience may be weak.
-37-48 Months: 50K and 25-36 Months: 50K — Almost equal churn across every tenure band. This means the churn problem is not limited to any specific time period — it is widespread and systemic.
+5. Tenure by Churn
+Tenure PeriodChurned CustomersRisk LevelKey Insight13-24 Months51K🔴 HighestCustomers survive year one but leave in year two — critical window1-12 Months50K🔴 HighNew customers leaving early — onboarding experience may be weak25-36 Months50K🔴 HighMid-term customers are not being retained either37-48 Months50K🔴 HighLong-serving customers still churning — loyalty programs failing49-60 Months50K🔴 HighMost loyal customers also leaving — systemic satisfaction issue
 
-Revenue by Contract Length (Column Chart)
-Annual: 115M and Quarterly: 115M — Both are equal. These two types of customers are the main source of company revenue.
-Monthly: 48M — Only 48M, which is less than half of the annual figure. Monthly customers make less long-term commitment and likely have a higher churn rate as well.
-Business recommendation: Converting monthly customers to annual or quarterly plans will increase revenue and reduce churn.
+6. Revenue by Contract Length
+Contract TypeRevenueShare of TotalBusiness MeaningAnnual115M41.4%Highest revenue contributor — these customers are most valuableQuarterly115M41.4%Equal to annual — strong mid-term commitment from customersMonthly48M17.2%Lowest revenue — high churn risk, low commitment
 
-Contract Length by Churn (Line Chart)
-Monthly: 87.1K → Annual: 81.6K → Quarterly: 81.2K
-The line is trending downward, meaning monthly contract customers are churning the most (87,100 people). Annual and quarterly customers are comparatively more likely to stay.
-This proves that longer contract lengths make it easier to retain customers.
+7. Contract Length by Churn
+Contract TypeChurned CustomersChurn TrendRecommendationMonthly87.1K🔴 Highest churnUrgently convert these customers to longer plansAnnual81.6K🟡 Moderate churnImprove renewal incentives and loyalty benefitsQuarterly81.2K🟢 Lowest churnBest performing — use this model as a benchmark
 
-Filter System
-The Support Calls filter will help understand — are customers who made more support calls more likely to churn? Typically, yes.
-Subscription Type (Basic, Premium, Standard) — To see which plan's customers are leaving the most.
-Gender and Custom Month Range filters allow drill-down into any specific customer segment.
+8. Filter System
+Filter NameOptions AvailableWhat it Helps AnalyzeChurnAll, Churned, RetainedSeparate churned vs active customers in all chartsSupport CallsAll, 0, 1-3, 4+Whether high support usage leads to higher churnSubscription TypeBasic, Premium, StandardWhich plan has the most at-risk customersGenderAll, Male, FemaleGender-based churn behavior differencesCustom Month Range1-12, 13-24, 25-36, 37-48, 49-60 MonthsDrill down into any specific tenure period
 
-Overall Business Insight
-The core message from this dashboard is — churn exists everywhere, it is not limited to any specific group. However, monthly contract customers are at the highest risk, and bringing them onto longer-term plans is the most effective retention strategy. Additionally, the fact that even 49-60 month customers are churning at high rates suggests that customer satisfaction issues go beyond pricing and contract length — product quality, support experience, and engagement need to be reviewed as well.
+9. Overall Business Insights
+#InsightPriority1Churn is happening equally across all tenure bands — this is a systemic problem, not isolated🔴 Critical2Monthly contract customers churn the most (87.1K) — they are the highest risk group🔴 Critical3Annual and quarterly customers generate 82.8% of total revenue — protecting them is top priority🔴 Critical4Even 49-60 month customers are churning — loyalty alone is not enough to retain customers🟡 High5Female customers make up 57% — gender-specific retention strategies should be explored🟡 High6Monthly revenue (48M) is far below annual/quarterly — pricing strategy needs review🟡 High7Converting monthly customers to annual/quarterly plans is the fastest way to reduce churn🟢 Recommended Action
+
+10. Strategic Recommendations
+ActionTarget GroupExpected OutcomeImprove onboarding experience1-12 Month customersReduce early-stage churnLaunch year-two engagement campaigns13-24 Month customersAddress the highest churn windowOffer annual plan discounts to monthly usersMonthly contract customersIncrease revenue and reduce churn simultaneouslyIntroduce loyalty rewards37-60 Month customersRetain long-term customers who are at riskAnalyze support call data deeplyHigh support call usersIdentify and fix product/service pain points before customers leave
+
+
+
 
 <img width="1435" height="807" alt="image" src="https://github.com/user-attachments/assets/ee9835dd-2b12-4386-963a-f9ab1a321f4c" />
